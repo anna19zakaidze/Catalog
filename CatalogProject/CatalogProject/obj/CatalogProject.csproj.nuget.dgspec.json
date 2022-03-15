@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\CatalogProject\\CatalogProject\\CatalogProject.csproj": {}
+    "D:\\DotNet\\CatalogService\\CatalogProject\\CatalogProject\\CatalogProject.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\CatalogProject\\CatalogProject\\CatalogProject.csproj": {
+    "D:\\DotNet\\CatalogService\\CatalogProject\\CatalogProject\\CatalogProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\CatalogProject\\CatalogProject\\CatalogProject.csproj",
+        "projectUniqueName": "D:\\DotNet\\CatalogService\\CatalogProject\\CatalogProject\\CatalogProject.csproj",
         "projectName": "CatalogProject",
-        "projectPath": "D:\\DotNet\\CatalogProject\\CatalogProject\\CatalogProject.csproj",
+        "projectPath": "D:\\DotNet\\CatalogService\\CatalogProject\\CatalogProject\\CatalogProject.csproj",
         "packagesPath": "C:\\Users\\AZakaidze\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\CatalogProject\\CatalogProject\\obj\\",
+        "outputPath": "D:\\DotNet\\CatalogService\\CatalogProject\\CatalogProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AZakaidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
